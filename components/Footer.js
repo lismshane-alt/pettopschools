@@ -4,7 +4,7 @@ export default function Footer() {
       <div className="container-max grid gap-10 px-5 py-16 md:grid-cols-3 md:px-10">
         <div>
           <div className="mb-3 flex items-center gap-2">
-            <span className="grid h-9 w-9 place-items-center rounded-lg bg-white text-sm font-bold text-navy">
+            <span className="grid h-9 w-9 place-items-center rounded-lg bg-gold text-sm font-bold text-black">
               TH
             </span>
             <span className="font-semibold text-white">The Tree House International</span>

@@ -31,10 +31,10 @@ export default function WhyChoose() {
           <span className="text-xs font-semibold uppercase tracking-widest text-gold">
             Why Choose Us
           </span>
-          <h2 className="mt-3 text-3xl font-bold text-navy md:text-4xl">
+          <h2 className="mt-3 text-3xl font-bold text-white md:text-4xl">
             Where precision meets compassion
           </h2>
-          <p className="mt-4 text-navy/70">
+          <p className="mt-4 text-white/70">
             Every learner is met with scientific rigour and warmth — a combination that
             sets The Tree House International apart.
           </p>
@@ -44,13 +44,13 @@ export default function WhyChoose() {
           {features.map((f) => (
             <StaggerItem
               key={f.title}
-              className="rounded-2xl border border-navy-50 bg-white p-6 transition-shadow hover:shadow-lg"
+              className="rounded-2xl border border-navy-50 bg-navy-50 p-6 transition-shadow hover:shadow-lg hover:shadow-gold/10"
             >
-              <div className="mb-4 grid h-12 w-12 place-items-center rounded-xl bg-navy-50 text-2xl">
+              <div className="mb-4 grid h-12 w-12 place-items-center rounded-xl bg-navy text-2xl">
                 {f.icon}
               </div>
-              <h3 className="text-lg font-semibold text-navy">{f.title}</h3>
-              <p className="mt-2 text-sm leading-relaxed text-navy/65">{f.body}</p>
+              <h3 className="text-lg font-semibold text-white">{f.title}</h3>
+              <p className="mt-2 text-sm leading-relaxed text-white/65">{f.body}</p>
             </StaggerItem>
           ))}
         </Stagger>

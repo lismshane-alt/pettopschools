@@ -24,7 +24,7 @@ export default function Programmes() {
           <span className="text-xs font-semibold uppercase tracking-widest text-gold">
             School Programmes
           </span>
-          <h2 className="mt-3 text-3xl font-bold text-navy md:text-4xl">
+          <h2 className="mt-3 text-3xl font-bold text-white md:text-4xl">
             Two pathways, one mission
           </h2>
         </Reveal>
@@ -32,19 +32,19 @@ export default function Programmes() {
         <div className="mt-14 grid gap-8 md:grid-cols-2">
           {programmes.map((p, i) => (
             <Reveal key={p.name} delay={i * 0.12}>
-              <article className="overflow-hidden rounded-2xl bg-white shadow-sm transition-shadow hover:shadow-xl">
+              <article className="overflow-hidden rounded-2xl bg-navy-50 shadow-sm transition-shadow hover:shadow-xl hover:shadow-gold/10">
                 <Placeholder label={p.label} ratio="aspect-[16/10]" className="rounded-none" />
                 <div className="p-7">
                   <div className="flex items-center justify-between">
-                    <h3 className="text-xl font-bold text-navy">{p.name}</h3>
+                    <h3 className="text-xl font-bold text-white">{p.name}</h3>
                     <span className="rounded-full bg-gold/15 px-3 py-1 text-xs font-semibold text-gold">
                       {p.time}
                     </span>
                   </div>
-                  <p className="mt-3 text-sm leading-relaxed text-navy/70">{p.body}</p>
+                  <p className="mt-3 text-sm leading-relaxed text-white/70">{p.body}</p>
                   <a
                     href="#contact"
-                    className="mt-5 inline-block text-sm font-semibold text-sky transition-colors hover:text-navy"
+                    className="mt-5 inline-block text-sm font-semibold text-gold transition-colors hover:text-white"
                   >
                     Learn more →
                   </a>

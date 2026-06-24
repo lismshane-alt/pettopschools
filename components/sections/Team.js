@@ -16,7 +16,7 @@ export default function Team() {
           <span className="text-xs font-semibold uppercase tracking-widest text-gold">
             Our Team
           </span>
-          <h2 className="mt-3 text-3xl font-bold text-navy md:text-4xl">
+          <h2 className="mt-3 text-3xl font-bold text-white md:text-4xl">
             Internationally certified, locally devoted
           </h2>
         </Reveal>
@@ -25,8 +25,8 @@ export default function Team() {
           {team.map((m) => (
             <StaggerItem key={m.name} className="text-center">
               <Placeholder label={m.label} ratio="aspect-square" className="mb-4" />
-              <h3 className="font-semibold text-navy">{m.name}</h3>
-              <p className="text-sm text-navy/60">{m.role}</p>
+              <h3 className="font-semibold text-white">{m.name}</h3>
+              <p className="text-sm text-white/60">{m.role}</p>
             </StaggerItem>
           ))}
         </Stagger>

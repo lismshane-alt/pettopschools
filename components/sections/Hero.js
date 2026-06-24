@@ -21,17 +21,17 @@ export default function Hero() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.1 }}
-            className="mt-5 text-4xl font-bold leading-tight text-navy md:text-5xl lg:text-6xl"
+            className="mt-5 text-4xl font-bold leading-tight text-white md:text-5xl lg:text-6xl"
           >
             The Science of Learning,
-            <span className="block text-sky">The Art of Independence</span>
+            <span className="block text-gold">The Art of Independence</span>
           </motion.h1>
 
           <motion.p
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.2 }}
-            className="mt-5 max-w-md text-base leading-relaxed text-navy/70"
+            className="mt-5 max-w-md text-base leading-relaxed text-white/70"
           >
             Sri Lanka's international school dedicated to learners with special needs —
             where evidence-based education meets genuine compassion.
@@ -45,13 +45,13 @@ export default function Hero() {
           >
             <a
               href="#programmes"
-              className="rounded-full bg-navy px-6 py-3 text-sm font-semibold text-white transition-transform hover:scale-105"
+              className="rounded-full bg-gold px-6 py-3 text-sm font-semibold text-black transition-transform hover:scale-105"
             >
               Explore Programmes
             </a>
             <a
               href="#contact"
-              className="rounded-full border border-navy/20 px-6 py-3 text-sm font-semibold text-navy transition-colors hover:bg-navy hover:text-white"
+              className="rounded-full border border-white/20 px-6 py-3 text-sm font-semibold text-white transition-colors hover:bg-white hover:text-black"
             >
               Book a Visit
             </a>
@@ -69,10 +69,10 @@ export default function Hero() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.6 }}
-            className="absolute -bottom-6 -left-6 hidden rounded-2xl bg-white p-5 shadow-xl md:block"
+            className="absolute -bottom-6 -left-6 hidden rounded-2xl bg-navy-50 p-5 shadow-xl md:block"
           >
-            <p className="text-3xl font-bold text-navy">100%</p>
-            <p className="text-xs text-navy/60">transition to mainstream</p>
+            <p className="text-3xl font-bold text-white">100%</p>
+            <p className="text-xs text-white/60">transition to mainstream</p>
           </motion.div>
         </motion.div>
       </div>

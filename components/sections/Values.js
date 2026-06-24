@@ -12,10 +12,10 @@ export default function Values() {
           <span className="text-xs font-semibold uppercase tracking-widest text-gold">
             Social Values
           </span>
-          <h2 className="mt-3 text-3xl font-bold text-navy md:text-4xl">
+          <h2 className="mt-3 text-3xl font-bold text-white md:text-4xl">
             Leading autism research in the region
           </h2>
-          <p className="mt-4 text-navy/70">
+          <p className="mt-4 text-white/70">
             Through university collaborations and ongoing innovation, we advance the
             science of special education while holding ourselves to the highest ethical
             standards.
@@ -27,8 +27,8 @@ export default function Values() {
               "Applied autism research & university partnerships",
               "Inclusion and dignity for every child",
             ].map((v) => (
-              <li key={v} className="flex items-start gap-3 text-sm text-navy/75">
-                <span className="mt-0.5 text-sky">✓</span>
+              <li key={v} className="flex items-start gap-3 text-sm text-white/75">
+                <span className="mt-0.5 text-gold">✓</span>
                 {v}
               </li>
             ))}

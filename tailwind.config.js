@@ -8,12 +8,12 @@ module.exports = {
     extend: {
       colors: {
         navy: {
-          DEFAULT: "#11214a",
-          50: "#eef1f8",
-          900: "#0b1733",
+          DEFAULT: "#111111",
+          50: "#1e1e1e",
+          900: "#080808",
         },
-        gold: "#c9a14a",
-        sky: "#5b8fb9",
+        gold: "#E8C547",
+        sky: "#1c1c1c",
       },
       fontFamily: {
         sans: ["var(--font-inter)", "system-ui", "sans-serif"],

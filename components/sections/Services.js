@@ -17,10 +17,10 @@ export default function Services() {
           <span className="text-xs font-semibold uppercase tracking-widest text-gold">
             Services
           </span>
-          <h2 className="mt-3 text-3xl font-bold text-navy md:text-4xl">
+          <h2 className="mt-3 text-3xl font-bold text-white md:text-4xl">
             A full spectrum of support
           </h2>
-          <p className="mt-4 text-navy/70">
+          <p className="mt-4 text-white/70">
             Therapies and interventions delivered by an interdisciplinary team, all under
             one roof.
           </p>
@@ -30,12 +30,12 @@ export default function Services() {
           {services.map((s) => (
             <StaggerItem
               key={s.title}
-              className="group flex gap-4 rounded-2xl border border-navy-50 p-6 transition-colors hover:border-sky/40 hover:bg-navy-50/40"
+              className="group flex gap-4 rounded-2xl border border-navy-50 p-6 transition-colors hover:border-gold/40 hover:bg-navy-50/40"
             >
               <span className="text-2xl">{s.icon}</span>
               <div>
-                <h3 className="font-semibold text-navy">{s.title}</h3>
-                <p className="mt-1 text-sm leading-relaxed text-navy/65">{s.body}</p>
+                <h3 className="font-semibold text-white">{s.title}</h3>
+                <p className="mt-1 text-sm leading-relaxed text-white/65">{s.body}</p>
               </div>
             </StaggerItem>
           ))}

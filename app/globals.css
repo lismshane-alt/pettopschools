@@ -11,16 +11,16 @@ html {
 }
 
 body {
-  @apply bg-white text-navy antialiased;
+  @apply bg-black text-white antialiased;
 }
 
 /* Reusable placeholder image styling */
 .placeholder {
-  @apply relative flex items-center justify-center overflow-hidden bg-gradient-to-br from-navy-50 to-sky/20 text-navy/40;
+  @apply relative flex items-center justify-center overflow-hidden bg-gradient-to-br from-navy-50 to-navy text-white/20;
 }
 .placeholder::after {
   content: "";
-  @apply absolute inset-0 bg-[radial-gradient(circle_at_30%_20%,rgba(91,143,185,0.25),transparent_60%)];
+  @apply absolute inset-0 bg-[radial-gradient(circle_at_30%_20%,rgba(232,197,71,0.1),transparent_60%)];
 }
 
 .section-pad {
