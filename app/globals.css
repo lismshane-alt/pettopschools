@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-inter: "Inter", system-ui, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-white text-navy antialiased;
+}
+
+/* Reusable placeholder image styling */
+.placeholder {
+  @apply relative flex items-center justify-center overflow-hidden bg-gradient-to-br from-navy-50 to-sky/20 text-navy/40;
+}
+.placeholder::after {
+  content: "";
+  @apply absolute inset-0 bg-[radial-gradient(circle_at_30%_20%,rgba(91,143,185,0.25),transparent_60%)];
+}
+
+.section-pad {
+  @apply px-5 py-20 md:px-10 lg:px-20;
+}
+
+.container-max {
+  @apply mx-auto w-full max-w-6xl;
+}
